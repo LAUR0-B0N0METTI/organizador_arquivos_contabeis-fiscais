@@ -6,7 +6,7 @@ from typing import List, Dict, Any
 
 class PendenciasExtractor:
     def __init__(self):
-        self.base_url = "http://intranetmg:xxxx/services/checklist/api/pendencias/ListarPendencias"
+        self.base_url = "http://intranet:xxxx/services/checklist/api/pendencias/ListarPendencias"
         self.campos_extrair = [
             'obrigacaoDescricao',
             'idCliente', 
@@ -299,3 +299,4 @@ if __name__ == "__main__":
     exit_code = main()
 
     print(f"\nProcessamento finalizado (código: {exit_code})")  
+
