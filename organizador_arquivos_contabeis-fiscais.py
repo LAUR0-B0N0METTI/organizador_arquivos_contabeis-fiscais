@@ -30,7 +30,7 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 # Caminho base para processamento
-BASE_PATH = r"C:\Users\laurob\Desktop\amostragem"
+BASE_PATH = r"C:\Users\lauro\Desktop\amostragem"
 
 # Função para extrair texto de diferentes tipos de arquivos
 def extract_text(file_path):
@@ -898,7 +898,7 @@ def limpar_pasta_forcado(diretorio_pai):
         print(f"❌ ERRO CRÍTICO ao processar {diretorio_pai}: {e}")
 
 def main():
-    pasta_raiz = r"C:\Users\laurob\Desktop\amostragem"
+    pasta_raiz = r"C:\Users\lauro\Desktop\amostragem"
     
     print("=" * 70)
     print("🔥 LIMPADOR AGRESSIVO DE DIRETÓRIOS [2025] 🔥")
